@@ -15,7 +15,7 @@ public class ThirdPersonCameraController : MonoBehaviour {
     public float yMinLimit = -80f;
     [Tooltip("Maximum of Y-axis rotation")]
     public float yMaxLimit = 40f;
-    [Tooltip("Distance between camera and target. Read-only.")]
+    [Tooltip("Distance between camera and target")]
     public float distance;
     //[Tooltip("Offset between target and center of screen.")]
     //public Vector2 Offset = new Vector2(0,0);
