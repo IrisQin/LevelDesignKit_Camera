@@ -17,6 +17,7 @@ public class ThirdPersonCameraController : MonoBehaviour {
     public float yMinLimit = -80f;
     [Tooltip("Maximum of Y-axis rotation")]
     public float yMaxLimit = 40f;
+<<<<<<< HEAD
     [System.Serializable]
     public struct axis {
         [Tooltip("If enabled, the positive input will send negative values to the axis, and vice versa.")]
@@ -41,6 +42,12 @@ public class ThirdPersonCameraController : MonoBehaviour {
     public float minDistOpaque = 0.8f;
     [Tooltip("When the distance is smaller than this, the character will become completely transparent. Should < minDistOpaque")]
     public float maxDistTransparent = 0.5f;
+=======
+    [Tooltip("Distance between camera and target")]
+    public float distance;
+    //[Tooltip("Offset between target and center of screen.")]
+    //public Vector2 Offset = new Vector2(0,0);
+>>>>>>> cf454cb75a2eb57a4c77b82be8449164f24092de
 
     #endregion
 
